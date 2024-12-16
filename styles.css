@@ -35,8 +35,32 @@ section {
   height: 100vh;
 }
 
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeText {
+
+}
+
+.homeImg {
+
+}
+
+
+
 /* FOOTER */
 footer {
   display: flex;
   justify-content: center;
+}
+
+
+/* media */
+@media (max-width: 426px) {
+  .homeSection {
+    flex-direction: column;
+  }
 }
